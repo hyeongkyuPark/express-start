@@ -8,5 +8,5 @@ app.get('/', (request, response) => {
 });
 
 app.listen(port, () => {
-    
+    console.log("Express listning on",port);
 });
